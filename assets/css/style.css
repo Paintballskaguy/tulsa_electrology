@@ -1,0 +1,143 @@
+/* Global Responsive Image Reset */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Body Scroll Lock for Mobile Menu */
+.overflow-hidden {
+    overflow: hidden;
+}
+
+/* Ensures the embeds fit nicely within the grid columns */
+.instagram-card {
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+}
+.instagram-media {
+    margin: 0 !important;
+    width: 100% !important;
+    border-radius: 12px !important;
+}
+
+/* ============================================================
+   MODERN DESIGN ENHANCEMENTS
+   ============================================================ */
+
+/* ----- 1. Subtle Film Grain Overlay (Tactile Premium Feel) ----- */
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    opacity: 0.03;
+    pointer-events: none;
+    z-index: 9999;
+}
+
+/* ----- 2. Hero Floating Blobs ----- */
+@keyframes blob-float {
+    0%, 100% { transform: translate(0, 0) scale(1); }
+    33% { transform: translate(20px, -30px) scale(1.05); }
+    66% { transform: translate(-15px, 15px) scale(0.95); }
+}
+.hero-blob {
+    animation: blob-float 10s ease-in-out infinite;
+}
+.hero-blob-delayed {
+    animation: blob-float 12s ease-in-out infinite;
+    animation-delay: -5s;
+}
+
+/* ----- 3. Magnetic Button Base ----- */
+.magnetic-btn {
+    transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    will-change: transform;
+}
+
+/* ----- 4. Nav Active Underline ----- */
+.nav-link-active {
+    color: #D4AF37 !important;
+    position: relative;
+}
+.nav-link-active::after {
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 100%;
+    height: 1.5px;
+    background: #D4AF37;
+    transform: scaleX(1);
+    transition: transform 0.3s ease;
+}
+
+/* ----- 5. Timeline Draw Animation ----- */
+.timeline-line {
+    transform-origin: top center;
+    transform: scaleY(0);
+    transition: transform 1.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.timeline-line.drawn {
+    transform: scaleY(1);
+}
+
+/* ----- 6. Card Hover Transitions ----- */
+.card-hover {
+    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1),
+                box-shadow 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.card-hover:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 24px 48px rgba(0, 0, 0, 0.08);
+}
+
+/* ----- 7. Review Card 3D Tilt ----- */
+.tilt-card {
+    transition: transform 0.15s ease-out;
+    transform-style: preserve-3d;
+    will-change: transform;
+}
+
+/* ----- 8. Smooth Underline Link Hover ----- */
+.link-underline {
+    position: relative;
+}
+.link-underline::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: currentColor;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+}
+.link-underline:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+/* ----- 9. Prefers Reduced Motion ----- */
+@media (prefers-reduced-motion: reduce) {
+    .hero-blob,
+    .hero-blob-delayed {
+        animation: none;
+    }
+    .timeline-line {
+        transform: scaleY(1);
+        transition: none;
+    }
+    .card-hover,
+    .tilt-card,
+    .magnetic-btn {
+        transition: none;
+    }
+    body::after {
+        display: none;
+    }
+}
