@@ -10,30 +10,29 @@
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="96x96" href="./assets/images/favicon-96x96.png">
     <link rel="manifest" href="./assets/images/site.webmanifest">
+    <link rel="preload" as="image" href="assets/images/needle.webp">
+    <link rel="stylesheet" href="assets/css/tailwind.css">
     <link rel="stylesheet" href="assets/css/style.css">
     
     <title>Tulsa Electrology | Permanent Hair Removal</title>
-    <meta name="description" content="Professional permanent hair removal in Tulsa, OK. Specializing in PCOS, hormonal hair growth, and facial electrolysis. Registered Electrologist & Registered Nurse.">
-    <meta name="keywords" content="Electrolysis Tulsa, Permanent Hair Removal Tulsa, PCOS hair removal Oklahoma, Registered Electrologist Tulsa, Kristie Tulsa Electrology">
+    <meta name="description" content="Professional permanent hair removal in Tulsa, OK. Specializing in PCOS, hormonal hair growth, and facial electrolysis. Registered Electrologist &amp; Registered Nurse.">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://cdn.tailwindcss.com">
-    <link rel="preconnect" href="https://unpkg.com" crossorigin>
-    
     <meta property="og:title" content="Tulsa Electrology | Permanent Hair Removal">
-    <meta property="og:description" content="Professional permanent hair removal in Tulsa, OK. Specializing in PCOS, hormonal hair growth, and facial electrolysis. Registered Electrologist & Registered Nurse.">
-    <meta property="og:image" content="https://electrologytulsa.com/assets/images/Tulsa_Electrology_Logo_12_18_25_V full color.png">
+    <meta property="og:description" content="Professional permanent hair removal in Tulsa, OK. Specializing in PCOS, hormonal hair growth, and facial electrolysis. Registered Electrologist &amp; Registered Nurse.">
+    <meta property="og:image" content="https://electrologytulsa.com/assets/images/logo-full-color.png">
+    <meta property="og:image:width" content="1501">
+    <meta property="og:image:height" content="901">
     <meta property="og:url" content="https://electrologytulsa.com/">
     <meta property="og:type" content="website">
-    <meta name="twitter:card" content="summary_large_image">
     
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "HealthAndBeautyBusiness",
       "name": "Tulsa Electrology",
-      "image": "https://electrologytulsa.com/assets/images/Tulsa_Electrology_Logo_12_18_25_V full color.png",
+      "image": "https://electrologytulsa.com/assets/images/logo-full-color.png",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "5125 E 81st St., Suite 2",
@@ -50,6 +49,14 @@
       "url": "https://electrologytulsa.com/",
       "telephone": "918-641-4622",
       "priceRange": "$$",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "5"
+      },
+      "sameAs": [
+        "https://www.instagram.com/tulsa_electrology"
+      ],
       "openingHoursSpecification": [
         {
           "@type": "OpeningHoursSpecification",
@@ -118,28 +125,44 @@
     }
     </script>
 
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
-    
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        brandGold: '#D4AF37',
-                        brandSage: '#4B8B77',
-                        brandDark: '#1A1A1A',
-                    },
-                    fontFamily: {
-                        sans: ['Montserrat', 'sans-serif'],
-                        serif: ['Playfair Display', 'serif'],
-                    }
-                }
-            }
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "How Electrolysis Works at Tulsa Electrology",
+      "description": "A step-by-step overview of the permanent hair removal process at Tulsa Electrology.",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Consultation",
+          "text": "Your journey begins with a personalized consultation. We discuss your goals, examine your skin and hair type, and assess your medical history to ensure electrolysis is the right option for you."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "The Treatment",
+          "text": "After cleaning the area, a tiny probe is inserted into each hair follicle to destroy the root with a small amount of energy. Numbing cream is available for sensitive areas."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Aftercare",
+          "text": "We provide specific post-treatment instructions. Any mild redness or swelling usually resolves quickly. Avoid direct sun exposure and do not irritate the treated area immediately after your session."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Follow-up Sessions",
+          "text": "Multiple sessions are required to catch hair in the correct growth cycle. We schedule follow-ups based on your personalized plan to achieve permanent, hair-free results."
         }
+      ]
+    }
     </script>
+
+    <script src="assets/js/aos.js"></script>
+    <link href="assets/css/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
 </head>
 
 <body class="bg-slate-50 text-brandDark overflow-x-hidden">
@@ -150,21 +173,21 @@
     <div class="max-w-7xl mx-auto px-6 flex justify-between items-center py-4">
         
         <div class="flex items-center gap-4">
-            <a href="#" class="flex items-center gap-3">
-                <img src="./assets/images/Tulsa_Electrology_Logo_12_18_25_V full color.png" 
-                     alt="Tulsa Electrology" 
+            <a href="/" class="flex items-center gap-3">
+                <img src="./assets/images/logo-full-color.png"
+                     alt="Tulsa Electrology"
                      class="h-20 lg:h-24 w-auto" width="1501" height="901">
             </a>
         </div>
 
         <div class="hidden md:flex items-center space-x-10">
-            <a href="#about-electrolysis" class="text-[11px] font-bold uppercase tracking-[0.15em] text-brandDark hover:text-brandGold transition-colors">What is it?</a>
-            <a href="#process" class="text-[11px] font-bold uppercase tracking-[0.15em] text-brandDark hover:text-brandGold transition-colors">The Process</a>
-            <a href="#about" class="text-[11px] font-bold uppercase tracking-[0.15em] text-brandDark hover:text-brandGold transition-colors">Our Story</a>
-            <a href="#pricing" class="text-[11px] font-bold uppercase tracking-[0.15em] text-brandDark hover:text-brandGold transition-colors">Pricing</a>
-            <a href="#who-we-serve" class="text-[11px] font-bold uppercase tracking-[0.15em] text-brandDark hover:text-brandGold transition-colors">Who We Serve</a>
-            <a href="#faq" class="text-[11px] font-bold uppercase tracking-[0.15em] text-brandDark hover:text-brandGold transition-colors">FAQ</a>
-            <a href="#care-instructions" class="text-[11px] font-bold uppercase tracking-[0.15em] text-brandDark hover:text-brandGold transition-colors">Before & After Care</a>
+            <a href="#about-electrolysis" class="text-[11px] font-bold uppercase tracking-[0.15em] text-brandDark hover:text-brandGoldDeep transition-colors">What is it?</a>
+            <a href="#process" class="text-[11px] font-bold uppercase tracking-[0.15em] text-brandDark hover:text-brandGoldDeep transition-colors">The Process</a>
+            <a href="#about" class="text-[11px] font-bold uppercase tracking-[0.15em] text-brandDark hover:text-brandGoldDeep transition-colors">Our Story</a>
+            <a href="#pricing" class="text-[11px] font-bold uppercase tracking-[0.15em] text-brandDark hover:text-brandGoldDeep transition-colors">Pricing</a>
+            <a href="#who-we-serve" class="text-[11px] font-bold uppercase tracking-[0.15em] text-brandDark hover:text-brandGoldDeep transition-colors">Who We Serve</a>
+            <a href="#faq" class="text-[11px] font-bold uppercase tracking-[0.15em] text-brandDark hover:text-brandGoldDeep transition-colors">FAQ</a>
+            <a href="#care-instructions" class="text-[11px] font-bold uppercase tracking-[0.15em] text-brandDark hover:text-brandGoldDeep transition-colors">Before &amp; After Care</a>
         </div>
 
         <div class="flex items-center gap-4">
@@ -173,7 +196,7 @@
                 Book a Session
             </a>
             
-            <button class="md:hidden text-brandDark p-3 -mr-2 outline-none" onclick="toggleMobileMenu()" aria-label="Toggle Menu">
+            <button class="md:hidden text-brandDark p-3 -mr-2 outline-none" onclick="toggleMobileMenu()" aria-label="Toggle Menu" aria-expanded="false" aria-controls="mobile-menu">
                 <svg id="menu-icon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path class="menu-hamburger" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
                     <path class="menu-close hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
@@ -183,14 +206,14 @@
     </div>
 
     <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-slate-100 px-6 py-10 space-y-8 shadow-xl max-h-[calc(100vh-100px)] overflow-y-auto">
-        <a href="#about-electrolysis" class="block text-base font-bold uppercase tracking-widest text-brandDark hover:text-brandGold transition-colors">What is it?</a>
-        <a href="#process" class="block text-base font-bold uppercase tracking-widest text-brandDark hover:text-brandGold transition-colors">The Process</a>
-        <a href="#about" class="block text-base font-bold uppercase tracking-widest text-brandDark hover:text-brandGold transition-colors">Our Story</a>
-        <a href="#pricing" class="block text-base font-bold uppercase tracking-widest text-brandDark hover:text-brandGold transition-colors">Pricing</a>
-        <a href="#who-we-serve" class="block text-base font-bold uppercase tracking-widest text-brandDark hover:text-brandGold transition-colors">Who We Serve</a>
-        <a href="#faq" class="block text-base font-bold uppercase tracking-widest text-brandDark hover:text-brandGold transition-colors">FAQ</a>
-        <a href="#care-instructions" class="block text-base font-bold uppercase tracking-widest text-brandDark hover:text-brandGold transition-colors">Before & After Care</a>
-        <a href="https://tulsaelectrology.glossgenius.com/" class="block text-base font-bold uppercase tracking-widest text-brandGold border-t border-slate-50 pt-4">Book Now</a>
+        <a href="#about-electrolysis" class="block text-base font-bold uppercase tracking-widest text-brandDark hover:text-brandGoldDeep transition-colors">What is it?</a>
+        <a href="#process" class="block text-base font-bold uppercase tracking-widest text-brandDark hover:text-brandGoldDeep transition-colors">The Process</a>
+        <a href="#about" class="block text-base font-bold uppercase tracking-widest text-brandDark hover:text-brandGoldDeep transition-colors">Our Story</a>
+        <a href="#pricing" class="block text-base font-bold uppercase tracking-widest text-brandDark hover:text-brandGoldDeep transition-colors">Pricing</a>
+        <a href="#who-we-serve" class="block text-base font-bold uppercase tracking-widest text-brandDark hover:text-brandGoldDeep transition-colors">Who We Serve</a>
+        <a href="#faq" class="block text-base font-bold uppercase tracking-widest text-brandDark hover:text-brandGoldDeep transition-colors">FAQ</a>
+        <a href="#care-instructions" class="block text-base font-bold uppercase tracking-widest text-brandDark hover:text-brandGoldDeep transition-colors">Before &amp; After Care</a>
+        <a href="https://tulsaelectrology.glossgenius.com/" class="block text-base font-bold uppercase tracking-widest text-brandGoldDeep border-t border-slate-50 pt-4">Book Now</a>
     </div>
 </nav>
 
@@ -201,7 +224,7 @@
         <div class="max-w-7xl mx-auto px-6">
 
             <div class="flex justify-center mb-12" data-aos="fade-up">
-                <img src="./assets/images/Tulsa_Electrology_Logo_12_18_25_V full color.png" alt="Tulsa Electrology - Permanent Hair Removal" class="w-full max-w-[300px] h-auto" width="1501" height="901">
+                <img src="./assets/images/logo-full-color.png" alt="Tulsa Electrology - Permanent Hair Removal" class="w-full max-w-[300px] h-auto" width="1501" height="901">
             </div>
 
             <div class="grid lg:grid-cols-2 gap-16 items-center">
@@ -242,7 +265,7 @@
             <div class="grid lg:grid-cols-2 gap-16 items-start">
                 
                 <div data-aos="fade-right">
-        <h2 class="text-3xl font-sans font-bold tracking-[0.2em] text-brandDark mb-6">
+        <h2 class="text-3xl md:text-4xl font-serif font-bold text-brandDark mb-6">
             What Is <span class="text-brandSage">Electrolysis?</span>
         </h2>                    
                     <p class="text-lg text-slate-700 leading-relaxed mb-6">
@@ -255,7 +278,7 @@
                         </p>
                     </div>
                     
-                    <button onclick="toggleReadMore()" id="read-more-btn" class="text-brandSage font-bold uppercase tracking-widest text-base py-2 hover:text-brandGold transition flex items-center gap-2">
+                    <button onclick="toggleReadMore()" id="read-more-btn" class="text-brandSage font-bold uppercase tracking-widest text-base py-2 hover:text-brandGoldDeep transition flex items-center gap-2">
                         Read More <span>↓</span>
                     </button>
                     </div>
@@ -264,19 +287,19 @@
                     <h3 class="text-xs font-bold tracking-[0.2em] text-brandSage uppercase mb-8">Universal Results</h3>
                     <ul class="space-y-6">
                         <li class="flex items-center gap-4">
-                            <div class="w-8 h-8 rounded-full bg-brandGold/20 flex items-center justify-center text-brandGold font-bold">✓</div>
+                            <div class="w-8 h-8 rounded-full bg-brandGold/20 flex items-center justify-center text-brandGoldDeep font-bold" aria-hidden="true">✓</div>
                             <span class="text-brandDark font-medium">Works on all hair colors</span>
                         </li>
                         <li class="flex items-center gap-4">
-                            <div class="w-8 h-8 rounded-full bg-brandGold/20 flex items-center justify-center text-brandGold font-bold">✓</div>
+                            <div class="w-8 h-8 rounded-full bg-brandGold/20 flex items-center justify-center text-brandGoldDeep font-bold" aria-hidden="true">✓</div>
                             <span class="text-brandDark font-medium">Works on all skin tones</span>
                         </li>
                         <li class="flex items-center gap-4">
-                            <div class="w-8 h-8 rounded-full bg-brandGold/20 flex items-center justify-center text-brandGold font-bold">✓</div>
+                            <div class="w-8 h-8 rounded-full bg-brandGold/20 flex items-center justify-center text-brandGoldDeep font-bold" aria-hidden="true">✓</div>
                             <span class="text-brandDark font-medium">Works on all hair types</span>
                         </li>
                         <li class="flex items-center gap-4">
-                            <div class="w-8 h-8 rounded-full bg-brandGold/20 flex items-center justify-center text-brandGold font-bold">✓</div>
+                            <div class="w-8 h-8 rounded-full bg-brandGold/20 flex items-center justify-center text-brandGoldDeep font-bold" aria-hidden="true">✓</div>
                             <span class="text-brandDark font-medium">Safe for all body areas (except inner nose/ears)</span>
                         </li>
                     </ul>
@@ -290,8 +313,8 @@
     <section id="process" class="py-24 bg-white overflow-hidden">
         <div class="max-w-5xl mx-auto px-6">
             <div class="text-center mb-20" data-aos="fade-up">
-                <p class="text-brandGold font-semibold tracking-[0.3em] uppercase text-xs mb-4">Your Journey</p>
-                <h2 class="text-3xl font-sans font-bold tracking-[0.2em] text-brandDark mb-6">What To Expect</h2>
+                <p class="text-brandGoldDeep font-semibold tracking-[0.3em] uppercase text-xs mb-4">Your Journey</p>
+                <h2 class="text-3xl md:text-4xl font-serif font-bold text-brandDark mb-6">What To Expect</h2>
                 <p class="mt-6 text-slate-600 max-w-2xl mx-auto leading-relaxed">
                     We are committed to providing you with a smooth, comfortable, and effective hair removal experience. From your initial consultation to your final session, here is our path to permanent results.
                 </p>
@@ -356,14 +379,14 @@
                 
                 <div class="relative" data-aos="fade-right">
                     <div class="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl relative z-10 border-8 border-white">
-                        <img src="./assets/images/america.webp" alt="Kristie - Registered Electrologist & Nurse" class="w-full h-full object-cover" loading="lazy" width="1536" height="1024">
+                        <img src="./assets/images/america.webp" alt="Kristie - Registered Electrologist &amp; Nurse" class="w-full h-full object-cover" loading="lazy" width="1536" height="1024">
                     </div>
                     <div class="absolute -top-6 -left-6 w-full h-full border-2 border-brandGold rounded-2xl -z-0"></div>
                 </div>
 
                 <div data-aos="fade-left">
                     <p class="text-brandSage font-semibold tracking-[0.3em] uppercase text-xs mb-4">Meet Your Practitioner</p>
-                    <h2 class="text-4xl font-sans font-bold tracking-[0.2em] text-brandDark mb-8">Meet Kristie: <span class="block text-3xl mt-2">Your Registered Electrologist in Tulsa</span></h2>
+                    <h2 class="text-3xl md:text-4xl font-serif font-bold text-brandDark mb-8">Meet Kristie: <span class="block text-xl md:text-2xl mt-2 font-normal text-slate-500">Your Registered Electrologist in Tulsa</span></h2>
                     
                     <div class="space-y-6 text-slate-600 leading-relaxed text-lg font-light">
                         <p>
@@ -392,6 +415,7 @@
                 </div>
 
             </div>
+        </div>
     </section>
 
     <!-- Who we serve section -->
@@ -399,8 +423,8 @@
         <div class="max-w-4xl mx-auto px-6">
             
             <div class="text-center mb-12" data-aos="fade-up">
-                <p class="text-brandGold font-semibold tracking-[0.3em] uppercase text-xs mb-4">Greater Tulsa Metro Area</p>
-                <h2 class="text-3xl font-sans font-bold tracking-[0.2em] text-brandDark mb-6">Who We Serve</h2>
+                <p class="text-brandGoldDeep font-semibold tracking-[0.3em] uppercase text-xs mb-4">Greater Tulsa Metro Area</p>
+                <h2 class="text-3xl md:text-4xl font-serif font-bold text-brandDark mb-6">Who We Serve</h2>
             </div>
 
                 <div class="space-y-8" data-aos="fade-up">
@@ -434,20 +458,20 @@
         <div>
             <h4 class="text-brandDark font-bold text-[10px] uppercase tracking-widest mb-4 opacity-70">Hormonal Support</h4>
             <ul class="space-y-3 text-sm font-medium text-brandSage">
-                <li class="flex items-center gap-2">✦ PCOS Support</li>
-                <li class="flex items-center gap-2">✦ Perimenopause</li>
-                <li class="flex items-center gap-2">✦ Menopause</li>
-                <li class="flex items-center gap-2">✦ Postmenopause</li>
+                <li class="flex items-center gap-2"><span aria-hidden="true">✦</span>PCOS Support</li>
+                <li class="flex items-center gap-2"><span aria-hidden="true">✦</span>Perimenopause</li>
+                <li class="flex items-center gap-2"><span aria-hidden="true">✦</span>Menopause</li>
+                <li class="flex items-center gap-2"><span aria-hidden="true">✦</span>Postmenopause</li>
             </ul>
         </div>
 
         <div>
             <h4 class="text-brandDark font-bold text-[10px] uppercase tracking-widest mb-4 opacity-70">Common Areas for Men</h4>
             <ul class="grid grid-cols-1 gap-3 text-sm font-medium text-brandSage">
-                <li class="flex items-center gap-2">✦ Hairline & Nape</li>
-                <li class="flex items-center gap-2">✦ Beard Line Precision</li>
-                <li class="flex items-center gap-2">✦ Back & Shoulders</li>
-                <li class="flex items-center gap-2">✦ Chest, Ears & Brows</li>
+                <li class="flex items-center gap-2"><span aria-hidden="true">✦</span>Hairline &amp; Nape</li>
+                <li class="flex items-center gap-2"><span aria-hidden="true">✦</span>Beard Line Precision</li>
+                <li class="flex items-center gap-2"><span aria-hidden="true">✦</span>Back &amp; Shoulders</li>
+                <li class="flex items-center gap-2"><span aria-hidden="true">✦</span>Chest, Ears &amp; Brows</li>
             </ul>
         </div>
     </div>
@@ -460,7 +484,7 @@
     <section id="pricing" class="py-24 bg-white">
         <div class="max-w-7xl mx-auto px-6">
             <div class="text-center mb-16" data-aos="fade-up">
-                <h2 class="text-4xl font-sans font-bold tracking-[0.2em] text-brandDark mb-6">Treatment Options</h2>
+                <h2 class="text-3xl md:text-4xl font-serif font-bold text-brandDark mb-6">Treatment Options</h2>
                 <div class="h-1 w-20 bg-brandSage mx-auto mb-6"></div>
                 <p class="text-slate-500 max-w-2xl mx-auto">
                     Select a session length that fits your treatment plan. All sessions are performed with clinical precision.
@@ -518,11 +542,11 @@
                 </div>
 
                 <div class="md:col-span-2 bg-brandDark rounded-2xl p-8 text-white shadow-lg card-hover" data-aos="fade-up" data-aos-delay="400">
-                    <h3 class="font-sans font-bold uppercase tracking-[0.2em] text-[10px] text-brandSage mb-4">Payment Policy</h3>
+                    <h3 class="font-sans font-bold uppercase tracking-[0.2em] text-[10px] text-brandSageLight mb-4">Payment Policy</h3>
                     <div class="space-y-4 text-xs leading-relaxed text-slate-300">
                         <p>Payment is due in full at the end of each session. We accept <strong>Cash, Check, Venmo, Cash App, Apple Pay, and all major Credit/Debit cards</strong>.</p>
                         <p class="text-white">All card payments will incur an additional 3% convenience fee.</p>
-                        <p class="bg-white/5 p-3 rounded border border-white/10 text-brandSage">A $25 fee will be charged for returned checks.</p>
+                        <p class="bg-white/5 p-3 rounded border border-white/10 text-brandSageLight">A $25 fee will be charged for returned checks.</p>
                         <p class="italic opacity-50 text-[9px] pt-2">*Prices are subject to change at any time.</p>
                     </div>
                 </div>
@@ -542,7 +566,7 @@
     <section id="faq" class="py-24 bg-slate-50">
         <div class="max-w-3xl mx-auto px-6">
             <div class="text-center mb-16">
-                <h2 class="text-3xl font-sans font-bold tracking-[0.2em] text-brandDark mb-6">Common Questions</h2>
+                <h2 class="text-3xl md:text-4xl font-serif font-bold text-brandDark mb-6">Common Questions</h2>
                 <p class="text-brandSage font-semibold tracking-widest uppercase text-xs">Everything you need to know</p>
             </div>
             
@@ -550,7 +574,7 @@
                 <div class="border border-slate-200 rounded-xl bg-white overflow-hidden" data-aos="fade-up">
                     <button class="faq-toggle w-full px-8 py-6 text-left flex justify-between items-center hover:bg-slate-50 transition-colors" aria-expanded="false" aria-controls="faq-answer-1">
                         <span class="font-semibold text-brandDark">Are electrolysis and laser hair removal the same thing?</span>
-                        <span class="text-brandGold text-2xl transition-transform duration-300">+</span>
+                        <span class="text-brandGoldDeep text-2xl transition-transform duration-300" aria-hidden="true">+</span>
                     </button>
                     <div id="faq-answer-1" class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
                         <div class="px-8 pb-8">
@@ -559,7 +583,7 @@
                                 <table class="w-full text-left border-collapse">
                                     <thead>
                                         <tr class="border-b border-slate-100">
-                                            <th scope="col" class="py-4 px-2 text-brandGold font-serif text-lg w-1/2">Electrolysis</th>
+                                            <th scope="col" class="py-4 px-2 text-brandGoldDeep font-serif text-lg w-1/2">Electrolysis</th>
                                             <th scope="col" class="py-4 px-2 text-brandSage font-serif text-lg w-1/2">Laser</th>
                                         </tr>
                                     </thead>
@@ -586,7 +610,7 @@
                 <div class="border border-slate-200 rounded-xl bg-white overflow-hidden" data-aos="fade-up">
                     <button class="faq-toggle w-full px-8 py-6 text-left flex justify-between items-center hover:bg-slate-50 transition-colors" aria-expanded="false" aria-controls="faq-answer-2">
                         <span class="font-semibold text-brandDark">Does electrolysis hurt?</span>
-                        <span class="text-brandGold text-2xl transition-transform duration-300">+</span>
+                        <span class="text-brandGoldDeep text-2xl transition-transform duration-300" aria-hidden="true">+</span>
                     </button>
                     <div id="faq-answer-2" class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
                         <div class="px-8 pb-6 text-slate-600 leading-relaxed space-y-4 text-sm">
@@ -599,7 +623,7 @@
                 <div class="border border-slate-200 rounded-xl bg-white overflow-hidden" data-aos="fade-up">
                     <button class="faq-toggle w-full px-8 py-6 text-left flex justify-between items-center hover:bg-slate-50 transition-colors" aria-expanded="false" aria-controls="faq-answer-3">
                         <span class="font-semibold text-brandDark">How long and how many treatments will it take?</span>
-                        <span class="text-brandGold text-2xl transition-transform duration-300">+</span>
+                        <span class="text-brandGoldDeep text-2xl transition-transform duration-300" aria-hidden="true">+</span>
                     </button>
                     <div id="faq-answer-3" class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
                         <div class="px-8 pb-6 text-slate-600 leading-relaxed text-sm">
@@ -611,7 +635,7 @@
                 <div class="border border-slate-200 rounded-xl bg-white overflow-hidden" data-aos="fade-up">
                     <button class="faq-toggle w-full px-8 py-6 text-left flex justify-between items-center hover:bg-slate-50 transition-colors" aria-expanded="false" aria-controls="faq-answer-4">
                         <span class="font-semibold text-brandDark">Are there any side effects or risks?</span>
-                        <span class="text-brandGold text-2xl transition-transform duration-300">+</span>
+                        <span class="text-brandGoldDeep text-2xl transition-transform duration-300" aria-hidden="true">+</span>
                     </button>
                     <div id="faq-answer-4" class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-sm">
                         <div class="px-8 pb-6 text-slate-600 leading-relaxed space-y-4">
@@ -628,7 +652,7 @@
                 <div class="border border-slate-200 rounded-xl bg-white overflow-hidden" data-aos="fade-up">
                     <button class="faq-toggle w-full px-8 py-6 text-left flex justify-between items-center hover:bg-slate-50 transition-colors" aria-expanded="false" aria-controls="faq-answer-5">
                         <span class="font-semibold text-brandDark">What areas of the body can be treated?</span>
-                        <span class="text-brandGold text-2xl transition-transform duration-300">+</span>
+                        <span class="text-brandGoldDeep text-2xl transition-transform duration-300" aria-hidden="true">+</span>
                     </button>
                     <div id="faq-answer-5" class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-sm">
                         <div class="px-8 pb-6 text-slate-600 leading-relaxed">
@@ -640,7 +664,7 @@
                 <div class="border border-slate-200 rounded-xl bg-white overflow-hidden" data-aos="fade-up">
                     <button class="faq-toggle w-full px-8 py-6 text-left flex justify-between items-center hover:bg-slate-50 transition-colors" aria-expanded="false" aria-controls="faq-answer-6">
                         <span class="font-semibold text-brandDark">I don't have dark hair. Am I a candidate for electrolysis?</span>
-                        <span class="text-brandGold text-2xl transition-transform duration-300">+</span>
+                        <span class="text-brandGoldDeep text-2xl transition-transform duration-300" aria-hidden="true">+</span>
                     </button>
                     <div id="faq-answer-6" class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-sm">
                         <div class="px-8 pb-6 text-slate-600 leading-relaxed">
@@ -652,12 +676,12 @@
         </div>
     </section>
 
-    <!-- Preparation & Aftercare Section -->
+    <!-- Preparation &amp; Aftercare Section -->
     <section id="care-instructions" class="py-24 bg-white border-t border-slate-100">
         <div class="max-w-7xl mx-auto px-6">
             
             <div class="text-center mb-16" data-aos="fade-up">
-                <h2 class="text-3xl font-sans font-bold uppercase tracking-[0.2em] text-brandDark mb-4">Preparation & Aftercare</h2>
+                <h2 class="text-3xl md:text-4xl font-serif font-bold text-brandDark mb-4">Preparation &amp; Aftercare</h2>
                 <div class="h-1 w-20 bg-brandSage mx-auto mb-6"></div>
                 <p class="text-slate-500 max-w-2xl mx-auto">
                     Following these clinical guidelines ensures the most comfortable treatment and the best possible permanent results.
@@ -684,22 +708,22 @@
                         <p><strong>Comfort:</strong> You may take a pain reliever 30 minutes prior. For the upper lip, numbing cream is highly recommended (if not allergic to lidocaine). Ask me for specific recommendations if needed.</p>
                         
                         <ul class="space-y-3 pt-4 border-t border-slate-200">
-                            <li class="flex gap-3"><span>✦</span> Avoid coffee, sodas, or stimulants to keep your nervous system calm.</li>
-                            <li class="flex gap-3"><span>✦</span> Discontinue Retin-A, retinoids, or acids (Salicylic/Glycolic) for 1 week prior.</li>
-                            <li class="flex gap-3"><span>✦</span> No makeup on the face or deodorant if treating underarms.</li>
-                            <li class="flex gap-3"><span>✦</span> Avoid sun exposure 3 days prior and always wear sunscreen.</li>
+                            <li class="flex gap-3"><span aria-hidden="true">✦</span> Avoid coffee, sodas, or stimulants to keep your nervous system calm.</li>
+                            <li class="flex gap-3"><span aria-hidden="true">✦</span> Discontinue Retin-A, retinoids, or acids (Salicylic/Glycolic) for 1 week prior.</li>
+                            <li class="flex gap-3"><span aria-hidden="true">✦</span> No makeup on the face or deodorant if treating underarms.</li>
+                            <li class="flex gap-3"><span aria-hidden="true">✦</span> Avoid sun exposure 3 days prior and always wear sunscreen.</li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="bg-brandDark rounded-2xl p-8 md:p-12 text-white relative overflow-hidden" data-aos="fade-left">
                     <div class="flex items-center gap-4 mb-8">
-                        <div class="w-10 h-10 rounded-full bg-brandSage/20 flex items-center justify-center text-brandSage">
+                        <div class="w-10 h-10 rounded-full bg-brandSage/20 flex items-center justify-center text-brandSageLight">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                             </svg>
                         </div>
-                        <h3 class="text-xl font-sans font-bold uppercase tracking-widest text-brandSage">Post-Treatment Care</h3>
+                        <h3 class="text-xl font-sans font-bold uppercase tracking-widest text-brandSageLight">Post-Treatment Care</h3>
                     </div>
 
                     <div class="space-y-6 text-sm text-slate-300 leading-relaxed">
@@ -707,20 +731,20 @@
                         
                         <div class="grid gap-4">
                             <div class="bg-white/5 p-4 rounded-lg border border-white/10">
-                                <p class="font-bold text-brandSage mb-1">Immediate (24-48 Hours)</p>
+                                <p class="font-bold text-brandSageLight mb-1">Immediate (24-48 Hours)</p>
                                 <p>Avoid excessive sweating, dirt, hot tubs, or pools. Do not apply makeup or deodorant to the treated area.</p>
                             </div>
                             <div class="bg-white/5 p-4 rounded-lg border border-white/10">
-                                <p class="font-bold text-brandSage mb-1">Ongoing Recovery</p>
+                                <p class="font-bold text-brandSageLight mb-1">Ongoing Recovery</p>
                                 <p>Do not touch, pick, or scratch the area. Use soothing products like Aloe Vera to promote healing.</p>
                             </div>
                         </div>
 
                         <ul class="space-y-3 pt-4 border-t border-white/10">
-                            <li class="flex gap-3"><span>✦</span> Wear loose-fitting clothes (bikini, underarms, nape).</li>
-                            <li class="flex gap-3"><span>✦</span> Avoid direct sun or tanning for 48-72 hours.</li>
-                            <li class="flex gap-3"><span>✦</span> Do not tweeze or wax the treated area between sessions.</li>
-                            <li class="flex gap-3"><span>✦</span> Refrain from Retin-A until all irritation is gone.</li>
+                            <li class="flex gap-3"><span aria-hidden="true">✦</span> Wear loose-fitting clothes (bikini, underarms, nape).</li>
+                            <li class="flex gap-3"><span aria-hidden="true">✦</span> Avoid direct sun or tanning for 48-72 hours.</li>
+                            <li class="flex gap-3"><span aria-hidden="true">✦</span> Do not tweeze or wax the treated area between sessions.</li>
+                            <li class="flex gap-3"><span aria-hidden="true">✦</span> Refrain from Retin-A until all irritation is gone.</li>
                         </ul>
                     </div>
                 </div>
@@ -735,14 +759,58 @@
                 
                 <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
                     <div data-aos="fade-up">
-                        <p class="text-brandGold font-semibold tracking-[0.3em] uppercase text-[10px] mb-2">Social Gallery</p>
-                        <h2 class="text-3xl font-sans font-bold tracking-[0.2em] text-brandDark">Follow Our Results</h2>
+                        <p class="text-brandGoldDeep font-semibold tracking-[0.3em] uppercase text-[10px] mb-2">Social Gallery</p>
+                        <h2 class="text-3xl md:text-4xl font-serif font-bold text-brandDark">Follow Our Results</h2>
                         <p class="text-slate-500 mt-2">See transformations and clinical insights from our Tulsa studio.</p>
                     </div>
-                    <a href="https://www.instagram.com/tulsa_electrology" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-brandSage font-bold uppercase tracking-widest text-xs hover:text-brandGold transition group">
-                        @tulsa_electrology 
-                        <span class="transform group-hover:translate-x-1 transition-transform">→</span>
+                    <a href="https://www.instagram.com/tulsa_electrology" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-brandSage font-bold uppercase tracking-widest text-xs hover:text-brandGoldDeep transition group">
+                        @tulsa_electrology
+                        <span class="transform group-hover:translate-x-1 transition-transform" aria-hidden="true">→</span>
                     </a>
+                </div>
+
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-4" data-aos="fade-up">
+
+                    <a href="https://www.instagram.com/tulsa_electrology" target="_blank" rel="noopener noreferrer" aria-label="View Tulsa Electrology on Instagram" class="group relative aspect-square overflow-hidden rounded-xl shadow-sm card-hover">
+                        <img src="./assets/images/needle.webp" alt="Close-up of precision electrolysis treatment" loading="lazy" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" width="1004" height="545">
+                        <div class="absolute inset-0 flex items-center justify-center bg-brandDark/0 group-hover:bg-brandDark/45 transition-colors duration-300">
+                            <span class="flex items-center gap-2 text-white text-[11px] font-bold uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.9.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s0 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58 0-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s0-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.21 8.8 2.2 12 2.2zm0 3.06A4.94 4.94 0 1 0 12 15.14 4.94 4.94 0 0 0 12 5.26zm0 1.8a3.14 3.14 0 1 1 0 6.28 3.14 3.14 0 0 1 0-6.28zm5.13-3.2a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3z"/></svg>
+                                View
+                            </span>
+                        </div>
+                    </a>
+
+                    <a href="https://www.instagram.com/tulsa_electrology" target="_blank" rel="noopener noreferrer" aria-label="Permanent results — view on Instagram" class="group relative aspect-square overflow-hidden rounded-xl shadow-sm card-hover flex flex-col items-center justify-center text-center p-6 bg-gradient-to-br from-brandSage to-brandDark">
+                        <svg class="w-7 h-7 text-white/90 mb-3 transition-transform duration-300 group-hover:scale-110" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.9.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s0 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58 0-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s0-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.21 8.8 2.2 12 2.2zm0 3.06A4.94 4.94 0 1 0 12 15.14 4.94 4.94 0 0 0 12 5.26zm0 1.8a3.14 3.14 0 1 1 0 6.28 3.14 3.14 0 0 1 0-6.28zm5.13-3.2a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3z"/></svg>
+                        <p class="text-white text-sm font-serif">Permanent Results</p>
+                    </a>
+
+                    <a href="https://www.instagram.com/tulsa_electrology" target="_blank" rel="noopener noreferrer" aria-label="PCOS &amp; hormonal hair support — view on Instagram" class="group relative aspect-square overflow-hidden rounded-xl shadow-sm card-hover flex flex-col items-center justify-center text-center p-6 bg-gradient-to-br from-brandGoldDeep to-brandDark">
+                        <svg class="w-7 h-7 text-white/90 mb-3 transition-transform duration-300 group-hover:scale-110" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.9.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s0 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58 0-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s0-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.21 8.8 2.2 12 2.2zm0 3.06A4.94 4.94 0 1 0 12 15.14 4.94 4.94 0 0 0 12 5.26zm0 1.8a3.14 3.14 0 1 1 0 6.28 3.14 3.14 0 0 1 0-6.28zm5.13-3.2a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3z"/></svg>
+                        <p class="text-white text-sm font-serif">PCOS &amp; Hormonal Support</p>
+                    </a>
+
+                    <a href="https://www.instagram.com/tulsa_electrology" target="_blank" rel="noopener noreferrer" aria-label="Care for every skin tone — view on Instagram" class="group relative aspect-square overflow-hidden rounded-xl shadow-sm card-hover flex flex-col items-center justify-center text-center p-6 bg-gradient-to-br from-brandDark to-brandSage">
+                        <svg class="w-7 h-7 text-white/90 mb-3 transition-transform duration-300 group-hover:scale-110" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.9.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s0 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58 0-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s0-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.21 8.8 2.2 12 2.2zm0 3.06A4.94 4.94 0 1 0 12 15.14 4.94 4.94 0 0 0 12 5.26zm0 1.8a3.14 3.14 0 1 1 0 6.28 3.14 3.14 0 0 1 0-6.28zm5.13-3.2a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3z"/></svg>
+                        <p class="text-white text-sm font-serif">Every Skin Tone</p>
+                    </a>
+
+                    <a href="https://www.instagram.com/tulsa_electrology" target="_blank" rel="noopener noreferrer" aria-label="View Tulsa Electrology on Instagram" class="group relative aspect-square overflow-hidden rounded-xl shadow-sm card-hover">
+                        <img src="./assets/images/america.webp" alt="Kristie, Registered Electrologist, in the Tulsa studio" loading="lazy" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" width="1536" height="1024">
+                        <div class="absolute inset-0 flex items-center justify-center bg-brandDark/0 group-hover:bg-brandDark/45 transition-colors duration-300">
+                            <span class="flex items-center gap-2 text-white text-[11px] font-bold uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.9.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s0 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58 0-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s0-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.21 8.8 2.2 12 2.2zm0 3.06A4.94 4.94 0 1 0 12 15.14 4.94 4.94 0 0 0 12 5.26zm0 1.8a3.14 3.14 0 1 1 0 6.28 3.14 3.14 0 0 1 0-6.28zm5.13-3.2a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3z"/></svg>
+                                View
+                            </span>
+                        </div>
+                    </a>
+
+                    <a href="https://www.instagram.com/tulsa_electrology" target="_blank" rel="noopener noreferrer" aria-label="Clinical, registered-nurse care — view on Instagram" class="group relative aspect-square overflow-hidden rounded-xl shadow-sm card-hover flex flex-col items-center justify-center text-center p-6 bg-gradient-to-br from-brandSage to-brandDark">
+                        <svg class="w-7 h-7 text-white/90 mb-3 transition-transform duration-300 group-hover:scale-110" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.9.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s0 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58 0-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s0-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.21 8.8 2.2 12 2.2zm0 3.06A4.94 4.94 0 1 0 12 15.14 4.94 4.94 0 0 0 12 5.26zm0 1.8a3.14 3.14 0 1 1 0 6.28 3.14 3.14 0 0 1 0-6.28zm5.13-3.2a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3z"/></svg>
+                        <p class="text-white text-sm font-serif">Clinical Care</p>
+                    </a>
+
                 </div>
 
             </div>
@@ -752,16 +820,18 @@
         <section id="reviews" class="py-24 bg-slate-50 border-t border-slate-100">
             <div class="max-w-5xl mx-auto px-6">
                 <div class="text-center mb-16" data-aos="fade-up">
-                    <p class="text-brandGold font-semibold tracking-[0.3em] uppercase text-[10px] mb-4">Client Feedback</p>
-                    <h2 class="text-3xl font-sans font-bold tracking-[0.2em] text-brandDark mb-6">See What Our Clients Say</h2>
-                    <div class="flex justify-center gap-1 text-brandGold text-2xl">
+                    <p class="text-brandGoldDeep font-semibold tracking-[0.3em] uppercase text-[10px] mb-4">Client Feedback</p>
+                    <h2 class="text-3xl md:text-4xl font-serif font-bold text-brandDark mb-6">See What Our Clients Say</h2>
+                    <span class="sr-only">Our clients rate us 5 out of 5 stars</span>
+                    <div class="flex justify-center gap-1 text-brandGoldDeep text-2xl" aria-hidden="true">
                         <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
                     </div>
                 </div>
 
                 <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto" data-aos="fade-up">
                     <div class="bg-white rounded-2xl p-8 md:p-10 shadow-lg border border-slate-100 relative tilt-card card-hover">
-                        <div class="flex gap-1 mb-4 text-brandGold text-xl">
+                        <span class="sr-only">Rated 5 out of 5 stars</span>
+                        <div class="flex gap-1 mb-4 text-brandGoldDeep text-xl" aria-hidden="true">
                             <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
                         </div>
                         <blockquote class="text-lg text-brandDark leading-relaxed mb-8 font-light">
@@ -777,7 +847,8 @@
                     </div>
 
                     <div class="bg-white rounded-2xl p-8 md:p-10 shadow-lg border border-slate-100 relative tilt-card card-hover">
-                        <div class="flex gap-1 mb-4 text-brandGold text-xl">
+                        <span class="sr-only">Rated 5 out of 5 stars</span>
+                        <div class="flex gap-1 mb-4 text-brandGoldDeep text-xl" aria-hidden="true">
                             <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
                         </div>
                         <blockquote class="text-lg text-brandDark leading-relaxed mb-8 font-light">
@@ -793,7 +864,8 @@
                     </div>
 
                     <div class="bg-white rounded-2xl p-8 md:p-10 shadow-lg border border-slate-100 relative tilt-card card-hover">
-                        <div class="flex gap-1 mb-4 text-brandGold text-xl">
+                        <span class="sr-only">Rated 5 out of 5 stars</span>
+                        <div class="flex gap-1 mb-4 text-brandGoldDeep text-xl" aria-hidden="true">
                             <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
                         </div>
                         <blockquote class="text-lg text-brandDark leading-relaxed mb-8 font-light">
@@ -809,7 +881,8 @@
                     </div>
 
                     <div class="bg-white rounded-2xl p-8 md:p-10 shadow-lg border border-slate-100 relative tilt-card card-hover">
-                        <div class="flex gap-1 mb-4 text-brandGold text-xl">
+                        <span class="sr-only">Rated 5 out of 5 stars</span>
+                        <div class="flex gap-1 mb-4 text-brandGoldDeep text-xl" aria-hidden="true">
                             <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
                         </div>
                         <blockquote class="text-lg text-brandDark leading-relaxed mb-8 font-light">
@@ -826,10 +899,11 @@
 
                     <div class="bg-white rounded-2xl p-8 md:p-10 shadow-lg border border-slate-100 relative md:col-span-2 tilt-card card-hover">
                         <div class="flex items-center gap-3 mb-4">
-                            <div class="flex gap-1 text-brandGold text-xl">
+                            <span class="sr-only">Rated 5 out of 5 stars</span>
+                            <div class="flex gap-1 text-brandGoldDeep text-xl" aria-hidden="true">
                                 <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
                             </div>
-                            <span class="bg-brandGold/10 text-brandGold text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded">Local Guide</span>
+                            <span class="bg-brandGold/10 text-brandGoldDeep text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded">Local Guide</span>
                         </div>
                         <blockquote class="text-lg text-brandDark leading-relaxed mb-8 font-light">
                             "PCOS ladies listen up! I had SO much facial hair after OH so many rounds of waxing, plucking and laser hair removal. All over my chin, neck and upper lip. They were dark and coarse, I felt pretty embarrassed. I started seeing Kristie and slowly the hair went away. I’d been seeing her 1-2 times a month for a year and now I can say there is no more hair on my face! The level of professionalism and care Kristie offers made me feel so comfortable throughout the process. Yes, it hurts so get a good numbing cream. Stay hydrated and take some Tylenol before. Absolutely worth it. I shout this girl out every time to all my friends, especially those with unwanted body hair."
@@ -845,7 +919,7 @@
                 </div>
 
                 <div class="mt-12 text-center" data-aos="fade-up">
-                    <a href="https://share.google/VOaUyle7SiXtdtd3b" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-brandSage font-bold uppercase tracking-widest text-xs hover:text-brandDark transition">
+                    <a href="https://share.google/VOaUyle7SiXtdtd3b" target="_blank" rel="noopener noreferrer" class="group inline-flex items-center gap-2 text-brandSage font-bold uppercase tracking-widest text-xs hover:text-brandDark transition">
                         Read more reviews on Google
                         <span class="transform group-hover:translate-x-1 transition-transform">→</span>
                     </a>
@@ -860,13 +934,13 @@
                     
                     <div class="space-y-6">
                         <div class="mb-6">
-                            <img src="./assets/images/Tulsa_Electrology_Logo_12_18_25_V full color.png" 
-                                alt="Tulsa Electrology" 
+                            <img src="./assets/images/logo-full-color.png"
+                                alt="Tulsa Electrology"
                                 class="h-24 w-auto brightness-0 invert opacity-90" loading="lazy" width="1501" height="901">
                         </div>
                         <div class="inline-block border border-brandSage/30 px-4 py-2 rounded-lg">
-                            <p class="text-[10px] uppercase tracking-widest text-brandSage font-bold font-sans">Clinical Standards</p>
-                            <p class="text-xs text-slate-300">Registered Nurse & Registered Electrologist</p>
+                            <p class="text-[10px] uppercase tracking-widest text-brandSageLight font-bold font-sans">Clinical Standards</p>
+                            <p class="text-xs text-slate-300">Registered Nurse &amp; Registered Electrologist</p>
                         </div>
                         <div class="space-y-4 pt-4">
                             <a href="tel:9186414622" class="block text-slate-300 hover:text-brandGold transition text-base py-1">918-641-4622</a>
@@ -892,15 +966,15 @@
                                 referrerpolicy="no-referrer-when-downgrade">
                             </iframe>
                         </div>
-                        <a href="https://www.instagram.com/tulsa_electrology" target="_blank" rel="noopener noreferrer" class="block text-brandSage hover:text-brandGold transition text-sm pt-2">@tulsa_electrology</a>
-                        <a href="https://share.google/VOaUyle7SiXtdtd3b" target="_blank" rel="noopener noreferrer" class="block text-brandSage hover:text-brandGold transition text-sm pt-2">Google Reviews</a>
+                        <a href="https://www.instagram.com/tulsa_electrology" target="_blank" rel="noopener noreferrer" class="block text-brandSageLight hover:text-brandGold transition text-sm pt-2">@tulsa_electrology</a>
+                        <a href="https://share.google/VOaUyle7SiXtdtd3b" target="_blank" rel="noopener noreferrer" class="block text-brandSageLight hover:text-brandGold transition text-sm pt-2">Google Reviews</a>
                     </div>
 
                     <div class="space-y-4">
                         <p class="text-brandGold uppercase tracking-widest text-xs font-bold font-sans">Studio Hours</p>
                         <ul class="text-slate-400 text-sm space-y-2">
                             <li class="flex justify-between"><span>Mon, Tue, Thu, Fri:</span> <span>8:30 AM - 5 PM</span></li>
-                            <li class="flex justify-between"><span>Wed, Sat, Sun:</span> <span class="text-brandSage/60">Closed</span></li>
+                            <li class="flex justify-between"><span>Wed, Sat, Sun:</span> <span class="text-brandSageLight/70">Closed</span></li>
                         </ul>
                         <div class="pt-6">
                             <a href="https://tulsaelectrology.glossgenius.com/" class="inline-block px-6 py-2 border border-brandGold text-brandGold text-xs font-bold uppercase tracking-widest hover:bg-brandGold hover:text-brandDark transition duration-300 rounded">BOOK ONLINE</a>

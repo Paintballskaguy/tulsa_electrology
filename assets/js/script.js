@@ -40,6 +40,8 @@ document.addEventListener('DOMContentLoaded', () => {
             if (hamburger) hamburger.classList.remove('hidden');
             if (close) close.classList.add('hidden');
             document.body.style.overflow = '';
+            const toggleBtn = document.querySelector('[aria-controls="mobile-menu"]');
+            if (toggleBtn) toggleBtn.setAttribute('aria-expanded', 'false');
         });
     });
 
@@ -143,17 +145,20 @@ window.toggleMobileMenu = () => {
     const menu = document.getElementById('mobile-menu');
     const hamburger = document.querySelector('.menu-hamburger');
     const close = document.querySelector('.menu-close');
+    const toggleBtn = document.querySelector('[aria-controls="mobile-menu"]');
     const isHidden = menu.classList.contains('hidden');
-    
+
     if (isHidden) {
         menu.classList.remove('hidden');
         if (hamburger) hamburger.classList.add('hidden');
         if (close) close.classList.remove('hidden');
         document.body.style.overflow = 'hidden';
+        if (toggleBtn) toggleBtn.setAttribute('aria-expanded', 'true');
     } else {
         menu.classList.add('hidden');
         if (hamburger) hamburger.classList.remove('hidden');
         if (close) close.classList.add('hidden');
         document.body.style.overflow = '';
+        if (toggleBtn) toggleBtn.setAttribute('aria-expanded', 'false');
     }
 };
